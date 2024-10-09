@@ -97,13 +97,26 @@ header .wrap .title .name{
     font-weight: 500;
     width: 80%;
 }
-header .wrap nav{}
+header .wrap nav{
+    display: flex;
+    flex-direction: column;
+}
 header .wrap nav .gnb{
     font-size: 23px;
     font-weight: 700;
     margin: 0;
+    padding: 5px 10px;
 }
-
+header .wrap nav .gnb::after{
+    display:block;
+    content: '';
+    border-bottom: solid 3px #000;  
+    transform: scaleX(0);  
+    transition: transform 250ms ease-in-out;
+}
+header .wrap nav .gnb:hover:after{
+    transform: scaleX(1);
+}
 .about{}
 .about .wrap{
 }
