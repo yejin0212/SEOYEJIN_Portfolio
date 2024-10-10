@@ -1,0 +1,40 @@
+@media (min-width: 800px) and (max-width:1199px){
+    header .wrap nav .gnb::after{
+        display:block;
+        width: 20%;
+        margin: 0 auto;
+        content: '';
+        border-bottom: solid 3px #000;  
+        transform: scaleX(0);  
+        transition: transform 250ms ease-in-out;
+    }
+    .section3{
+        padding: 0 40px;
+    }
+    .section3 .wrap{
+        background-size:cover;
+    }
+    .section3 .wrap .left .date{
+        display: block;
+    }
+
+    .section4{
+        padding: 0 40px;
+    }
+    .section4 .wrap{
+        background-size:cover;
+    }
+    .section4 .wrap .left .date{
+        display: block;
+    }
+
+    .section5{
+        padding: 0 40px;
+    }
+    .section5 .wrap{
+        background-size: cover;
+    }
+    .section5 .wrap .left .date{
+        display: block;
+    }
+}
