@@ -322,6 +322,7 @@
     
     .section3{
         padding: 0 40px;
+        margin-bottom: 50px;
     }
     .section3 .wrap{
         background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url(../images/dyson_background.jpg);
@@ -355,6 +356,7 @@
     .section3 .wrap .left .tit{
         display: flex;
         margin-bottom: 40px;
+        justify-content: center;
     }
     .section3 .wrap .left .tit span{
         color: #fff;
@@ -363,9 +365,10 @@
         margin-right: 0;
     }
     .section3 .wrap .left .tit img{ 
-        width: unset;
+        width: 300px;
         filter: invert(100%) sepia(87%) saturate(30%) hue-rotate(141deg) brightness(108%) contrast(106%);
         margin: 0;
+
     }
     .section3 .wrap .left .date{
         display: block;
